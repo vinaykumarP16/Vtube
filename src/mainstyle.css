@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction:column;
+    background-color: #fff;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}   
+
+.subdiv{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.searchbar{
+    display: flex;
+    margin: auto;
+}
+
+.videolist{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: auto;
+
+}
+
+.foot{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.foot .data{
+    max-width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.data a{
+    margin:20px;
+    font-size: 1.3em;
+    cursor: pointer;
+    color: #ff0000;
+}
