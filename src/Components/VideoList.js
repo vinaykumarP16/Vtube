@@ -5,6 +5,7 @@ import VideoItem from './VideoItem.js';
 const VideoList=({videos,onVideoSelect})=>{
     
         const listofVideos=videos.map((video,id)=> <VideoItem onVideoSelect={onVideoSelect} key={id} video={video}/>)
+        const removeFirstVideo=listofVideos.shift();
         
         return (
             <Grid container spacing={10}>
