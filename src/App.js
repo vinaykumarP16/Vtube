@@ -12,7 +12,7 @@ export default class App extends Component {
     }
 
     componentDidMount(){
-        this.handleSubmit('sweet dreams alanwalker');
+        this.handleSubmit('safari serena');
     }
 
     onVideoSelect=(video)=>{
